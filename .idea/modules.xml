@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MediaPlayer.iml" filepath="$PROJECT_DIR$/MediaPlayer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/com.geniusgithub.common/com.geniusgithub.common.iml" filepath="$PROJECT_DIR$/com.geniusgithub.common/com.geniusgithub.common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cybergarage-upnp/cybergarage-upnp.iml" filepath="$PROJECT_DIR$/cybergarage-upnp/cybergarage-upnp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dlnaLibrary/dlnaLibrary.iml" filepath="$PROJECT_DIR$/dlnaLibrary/dlnaLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MediaPlayer.iml" filepath="$PROJECT_DIR$/.idea/modules/MediaPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MediaPlayer.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MediaPlayer.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.geniusgithub.common/MediaPlayer.com.geniusgithub.common.iml" filepath="$PROJECT_DIR$/.idea/modules/com.geniusgithub.common/MediaPlayer.com.geniusgithub.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cybergarage-upnp/MediaPlayer.cybergarage-upnp.iml" filepath="$PROJECT_DIR$/.idea/modules/cybergarage-upnp/MediaPlayer.cybergarage-upnp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dlnaLibrary/MediaPlayer.dlnaLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/dlnaLibrary/MediaPlayer.dlnaLibrary.iml" />
     </modules>
   </component>
 </project>
