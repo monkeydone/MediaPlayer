@@ -13,7 +13,7 @@
 		android:layout_marginBottom="10dp">
 
 
-			<android.support.v7.widget.AppCompatImageView
+			<androidx.appcompat.widget.AppCompatImageView
 				android:id="@+id/btn_play"
 				android:layout_width="70dp"
 				android:layout_height="70dp"
@@ -21,7 +21,7 @@
 				app:srcCompat="@drawable/selector_btn_play"
 				android:background="?attr/selectableItemBackgroundBorderless"/>
 	        
-            <android.support.v7.widget.AppCompatImageView
+            <androidx.appcompat.widget.AppCompatImageView
 	        android:id="@+id/btn_pause" 
 	        android:layout_width="70dp"
 	        android:layout_height="70dp"
@@ -30,7 +30,7 @@
 	        app:srcCompat="@drawable/selector_btn_pause"/>
 	        
    
-	        <android.support.v7.widget.AppCompatImageView
+	        <androidx.appcompat.widget.AppCompatImageView
 	        android:id="@+id/btn_playpre" 
 	        android:layout_width="60dp"
 	        android:layout_height="60dp"
@@ -39,7 +39,7 @@
 	        android:layout_centerVertical="true"
 	        android:background="@drawable/selector_btn_pre"/>
 	        
-	        <android.support.v7.widget.AppCompatImageView
+	        <androidx.appcompat.widget.AppCompatImageView
 	        android:id="@+id/btn_playnext" 
 	        android:layout_width="60dp"
 	        android:layout_height="60dp"
@@ -47,9 +47,9 @@
 	 		android:layout_marginLeft="10dp"
 	        android:layout_centerVertical="true"
 	        android:background="@drawable/selector_btn_next">
-	        </android.support.v7.widget.AppCompatImageView>
+	        </androidx.appcompat.widget.AppCompatImageView>
 
-			<android.support.v7.widget.AppCompatImageView
+			<androidx.appcompat.widget.AppCompatImageView
 				android:id="@+id/button_play_mode_toggle"
 				android:layout_width="50dp"
 				android:layout_height="50dp"
@@ -57,7 +57,7 @@
 				android:layout_centerVertical="true"
 				android:background="@drawable/selector_btn_mode_list"/>
 
-			<android.support.v7.widget.AppCompatImageView
+			<androidx.appcompat.widget.AppCompatImageView
 				android:id="@+id/button_play_list"
 				android:layout_width="50dp"
 				android:layout_height="50dp"
@@ -101,7 +101,7 @@
 		    </TextView>
 
 
-			<android.support.v7.widget.AppCompatSeekBar
+			<androidx.appcompat.widget.AppCompatSeekBar
 				android:id="@+id/playback_seeker"
 				style="@style/Widget.AppCompat.SeekBar"
 				android:layout_width="0dp"

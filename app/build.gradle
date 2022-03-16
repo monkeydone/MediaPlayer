@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.jakewharton.butterknife'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.2"
 
     defaultConfig {
         applicationId "com.geniusgithub.mediaplayer"
         minSdkVersion 21
-        targetSdkVersion 23
+        targetSdkVersion 28
         versionCode 35
         versionName "3.5"
     }
@@ -30,11 +30,11 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
-    implementation 'com.android.support:recyclerview-v7:23.4.0'
-    implementation 'com.android.support:design:23.4.0'
-    implementation 'com.android.support:support-v13:24.0.0'
-    implementation 'com.android.support:cardview-v7:24.1.0'
-    implementation 'com.android.support:support-v4:24.1.1'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.umeng.analytics:analytics:latest.integration'
     implementation 'com.jakewharton:butterknife:10.2.3'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
@@ -42,4 +42,5 @@ dependencies {
     implementation 'com.github.chrisbanes:PhotoView:1.3.0'
     implementation project(':com.geniusgithub.common')
     implementation project(':dlnaLibrary')
+    implementation project(':cybergarage-upnp')
 }
